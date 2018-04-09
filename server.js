@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/about', function(req, res){
-    res.send('About Us Page');
+    res.send('About Us Page by RTK');
 });
 
 app.listen(PORT, function(){
